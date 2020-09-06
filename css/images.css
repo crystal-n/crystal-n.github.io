@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F8F2EE; /*F8F2EE*/ /*#F6F3E9*/
+	width: 100%;
+}
+
+img {
+	width: 24vw; /*350px*/
+	height: 100%;
+	transition: all .5s;
+}
+
+img:hover{
+	/*transform: scale(1.1);*/
+	box-shadow: 5px 5px 8px #888;
+}
+
+h1 {
+	z-index: 2;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 2.7em;
+	/*border-right: 1px solid black;*/
+	border-bottom: 1px solid black;
+	  -webkit-box-shadow: 0px 0px 20px 2px rgba(209,209,209,0.69);
+	-moz-box-shadow: 0px 0px 20px 2px rgba(209,209,209,0.69);
+	box-shadow: 0px 0px 20px 2px rgba(209,209,209,0.69);
+	width: 100%;
+	/*margin-top: auto;*/
+	/*margin-left: 15px;*/
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	/*background:rgba(255,255,255, 0.7);*/
+	order: 2;
+	position: relative;
+	padding-top: 2vw;
+	margin-top: 0;
+}
+
+.nav{
+	z-index: 1;
+	width: 100%;
+	background-color: #fff;
+	height: auto;
+	margin-top: -1.9vw;
+	position: relative;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+#nav
+{
+	z-index: 1;
+	padding-top: 5px;
+	/*padding: 0px;*/
+	
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	/*text-transform: uppercase;*/
+	/*position: absolute;*/
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+
+}
+
+a:link {
+  text-decoration: none;
+  /*color: #FEA3A9;*/
+  color: #bbb;
+  transition-duration: 1s;
+  position: relative;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #bbb;
+}
+
+/* mouse over link */
+#nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+}
+
+#nav a::after {
+  border-radius: 1em;
+  border-top: .1em solid black;
+  content: "";
+  position: absolute;
+  	right: 100%;
+  	bottom: .10em;
+  	left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1);
+  /*visibility: hidden;*/
+  /*transform:scaleX(0);*/
+}
+
+#nav a:hover::after{
+	right: 0;
+	/*visibility: visible;*/
+	/*transform: scaleX(1);*/
+}
+
+a:active {
+	color: black;
+}
+
+.container{
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	/*align-items: flex-start;*/
+	/*flex-direction: column;*/
+	display: table;
+}
+
+.masonry{
+	column-count: 4;
+	column-gap: 2em;
+	padding: 20px;
+	margin-right: 25px;
+	/*margin-top: 5vw;*/
+	align-content: center;
+	position: relative;
+}
+
+.item{
+	/*background-color: #eee;*/
+	display: inline-block;
+	margin: 0 0 .5em;
+	width: 100%;
+}
+
