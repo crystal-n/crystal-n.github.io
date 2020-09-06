@@ -233,6 +233,17 @@ a:active {
 	box-shadow: 0px 0px 20px 2px rgba(209,209,209,0.69);
 }
 
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  background-color: white;
+  color: #bbb;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 5px;
+}
 
 html {
   scroll-behavior: smooth;
