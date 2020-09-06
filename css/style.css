@@ -157,7 +157,8 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-position: 0px -40px; 
+  background-position: left 50% top 50%; 
+  background-position: bottom 50%;
   /*background-position: center;*/
   float: right;
     padding-left: 10px;
