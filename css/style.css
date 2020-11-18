@@ -8,7 +8,7 @@ Selector {
 for the homepage.
 */
 
-@media screen and (min-width: 480px) {
+
 
 #main{
 	background-color: #bbb;
@@ -249,4 +249,4 @@ html {
   scroll-behavior: smooth;
 }
 
-}
+
