@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<head>
+      <title>Crystal Nguyen</title> 
+    
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+          <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/editor.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+
+      <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+  </head>
+
+
+<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="contact">Contact Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+
+          
+
+        <form action="https://formspree.io/mrgywojg" method="post">
+
+          <div class="form-group">
+            <label for="recipient-name" class="name">Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+        </div>
+
+        <div class="form-group">
+      <label for="formControlInput1">Email Address:</label>
+      <input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com">
+      </div>
+
+    <div class="form-group">
+    <label for="formControlSelect1">Inquiry Type:</label>
+    <select class="form-control" id="formControlSelect1">
+      <option>Job Opportunity</option>
+      <option>Art Commission</option>
+      <option>PR/Media</option>
+      <option>Other</option>
+    </select>
+    </div>
+
+
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary custom" onclick ="return confirm('Submitted!')"/>Send message</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
+      
+
+<!--
+  <div class="column">
+        <div class="menu sticky">       
+          <p  class="menu-label"><b>Quick Links</b></p>
+          <ul id="menu" class="menu-list">
+            <li><a href="#basic">Basic SEO Checklist</a></li>
+            <li><a href="#problem">Keyword Research Checklist</a></li>
+            <li><a href="#onpage">On-Page SEO Checklist</a></li>
+            <li><a href="#content">Content Checklist</a></li>
+            <li><a href="#technical">Technical SEO Checklist</a></li>
+            <li><a href="#link">Link Building Checklist</a></li>
+          </ul>
+        </div>
+      </div>
+-->
+
+
+
+<nav id="navbar" class=" navbar-static-top navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm navbar-static-top bg-transparent ">
+    <div class="container-fluid">
+      <a href="index.html" class="brand"> 
+        Crystal Nguyen
+      </a>
+        
+       <!-- <img id="logo" src="Logo.png" width="70" height=40 alt="Logo" class="d-inline-block align-middle mr-2"> </a>-->
+
+      <button id="toggleicon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html#scrolldown" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#contact" data-toggle = "modal" data-target="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+     <!-- <ul id = "sidebar">
+      <a href="#problem"> 00. Problem </a>
+      <br>
+      <a href="#research"> 01. Research </a>
+      <a href="#design"> 02. Lol </a>
+    </ul>-->
+
+<div class="jumbotron"><img src="/Users/crystal/Downloads/chopstixpic.jpg" >
+
+      </div>
+
+<div class="container">
+
+<!--
+<div class="sticky">
+<nav class="section-nav">
+<ol class="scrollspy-order">
+<li class="scrollspy"><a href="#intro">🛍️</a></li>
+<li class="scrollspy"><a href="#overview">Overview</a></li>
+<li class="scrollspy"><a href="#user-research">User Research</a></li>
+<li class="scrollspy"><a href="#research-synthesis">Research Synthesis</a></li>
+<li class="scrollspy"><a href="#product">The Product</a></li>
+<li class="scrollspy"><a href="#conclusion">Conclusion</a></li>
+</ol>
+</nav>
+</div>
+-->
+
+
+<div class="side" >
+
+      <ul id = "sidebar">
+      <a href="#overview"> 00. Overview </a>
+      <br>
+      <a href="#research"> 01. Research </a>
+      <br>
+      <a href="#ideation"> 02. Ideation </a>
+      <br>
+      <a href="#design"> 03. Design </a> 
+      <br>
+      <a href="#reflection"> 04. Reflection </a>
+    </ul>
+
+</div>
+
+<!-- PROJECT OVERVIEW -->
+
+<div id="overview">
+
+<div class="overview" data-aos="fade-up">
+
+    
+
+    <div class="fill" >
+    <div class="section" > <!--container-->
+    <div class="grid pogrid">
+
+
+      
+      <div id="namep">
+      <h1 class="heading"> Chopstix </h1>
+      </div>
+
+
+
+      <div id="overpl" class="div-block-1"> 
+      <div class="subheading">Overview</div>
+      <div class="para">Chopstix is a mobile application designed to connect foodies who are interested in Asian cuisine and allow them to discover new restaurants wherever they go.
+        
+        <br/><br/>
+
+      Being Asian-American, it can be a difficult task to find quality Asian cuisine in the States. There are also not many forums specifically for this ordeal. These two issues led me to create an app concept catered towards Asian food in addition to social networking between foodies. I, myself, am a foodie with a food Instagram so I am able to utilize my personal experience and gripes and my fellow foodies' opinions.
+ </div>
+      </div>
+
+      <div id="overpr" class="div-block-2">
+      <div class="subheading">Role</div>
+      <div class="para">UX Designer</div>
+      <br>
+      <div class="subheading">Duration</div>
+      <div class="para">~2 weeks, Sept. 2020</div>
+      <br>
+      <div class="subheading">Tools</div>
+      <div class="para">Procreate, Adobe XD, Photoshop</div>
+
+
+    </div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+  <div class="section2" data-aos="fade-up">
+ <div class="topic">The Problem \</div>
+
+<p>
+
+<div class="desc"> There are a lot of mobile applications that are revolved around food, and the topic of food has become quite popular in recent years, especially due to Korean mukbangs. However, there is no application dedicated to being a social forum and review app simultaneously. There are also no applications dedicated to strictly finding Asian cuisine. </div>
+</div>
+
+<!--
+<div class="sectionalt" data-aos="fade-up">
+
+  <div class="satext">
+ <b>How might we</b> create an improved interactive experience for like-minded foodies combined into a single platform?</div>
+
+
+</div>-->
+
+<div class="section2" data-aos="fade-up">
+ <div class="topic">The Solution \</div>
+
+<p>
+
+<div class="desc"> Chopstix is a mobile application that integrates restaurant recommendations, a community forum, and reviews, catered towards Asian cuisine.  </div>
+
+<br>
+
+
+
+
+
+  <div class="polaroid">
+  <img src="/Users/crystal/Desktop/chopstixpreview.png" class="photo" border-radius="8">
+  </div>
+</div>
+
+<!--
+<div class="psection group">
+  <div class="col span_1_of_2">
+  <h1>Recommendations Page</h1>
+  
+  Having a personalized home page is important, as users are able to feel more connected and as if the app is catered towards them. After being asked preferences, users are taken to the main page which shows recommendations based on what they like, as well as places nearby. <br><br>
+
+
+
+  <br><br>
+
+
+
+</div>
+
+
+  <div class="col span_1_of_2">
+
+  <div class="previewpic">
+  <img src="/Users/crystal/Desktop/mainpage.png" class="photo" border-radius="8">
+  </div>
+
+  </div>
+
+
+
+<div class="psection group">
+  <div class="col span_1_of_2">
+   <div class="previewpic">
+  <img src="/Users/crystal/Desktop/discuss.png" class="photo" border-radius="8">
+  </div>
+
+  <br><br>
+
+
+
+</div>
+
+  <div class="col span_2">
+
+<h1>Discussion Forum</h1>
+  
+  One feature that many food review apps lack is a discussion forum. Since Chopstix is catered towards foodies, it is only fitting to have a social space where users can interact and ask questions. Through this forum, users can discuss whatever they want and have opportunities to make new connections. <br><br>
+
+
+ 
+
+  </div>
+
+
+
+</div></div>
+-->
+
+
+
+<br><br><br><br> 
+
+
+<div class="section2" data-aos="fade-up">
+<div class="topic">The Process \</div>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/designprocess.jpg" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+
+<div id="research">
+
+
+  <div class="section2" data-aos="fade-up">
+ <div class="topic">01. Research \</div>
+
+<p>
+
+<div class="desc"> Utilizing my network, I interviewed 3 foodies on Instagram and asked them various questions, such as what food apps they use, their ideal features in a foodie app, how they discover foods and foodies, and if they have difficulty finding Asian cuisine. I also interviewed someone who is not a typical foodie so I could accomodate to those interested in trying new foods.
+
+<br><br>
+
+I also analyzed each app's reviews, sorting by both critical and most useful to obtain an open perspective of what users were both happy and unhappy about. Utilizing the most common complaints, I targeted these issues. <br><br>
+
+<div class="findings">
+<h2>Key Findings</h2>
+  <br>
+4 Interviews Total <br><br>
+<ul>High Priority</ul>
+<ul><ul>• Easy to find recommendations</ul></ul>
+<ul><ul>• Ability to connect with foodies</ul></ul>
+<ul><ul>• Place to share photos</ul></ul>
+
+<ul>Medium Priority</ul>
+<ul><ul>• Nearby recommendations</ul></ul>
+<ul><ul>• Bookmarks/collections</ul></ul>
+
+<ul>Low Priority</ul>
+<ul><ul>• Map to show food in nearby radius</ul></ul>
+
+<br>
+</div>
+</div>
+
+</div>
+
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">Competitive Analysis \</div>
+
+<p>
+
+<div class="desc"> I chose top food review apps in the App Store, which were Yelp, Foursquare, and the Infatuation. I also chose ChowBus due to its focus on Asian cuisine. The key features that I compared were recommendations, bookmarks, homepage, and forum. <br><br>
+
+</div>
+
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/ca.png" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">Personas \</div>
+
+<p>
+
+<div class="desc"> Based on my research, I created two personas consisting of primary users and secondary users. </div>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/personas.png" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+<div class="sectionalt" data-aos="fade-up">
+
+  <div class="satext">
+ <b>How might we</b> create an improved interactive experience for like-minded foodies combined into a single platform?</div>
+
+
+</div>
+
+
+<div id="ideation">
+
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">02. Ideation \</div>
+
+<p>
+
+<div class="desc"> I decided to do a speed run of Crazy Eights and ultimately focused on the following features: </div>
+
+
+<br><br><br><br>
+<div class="topic">Crazy Eights \</div>
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/crazyeights.png" class="photo" border-radius="8">
+  </div>
+
+  <br>
+
+  <div class="polaroid">
+  <img src="/Users/crystal/downloads/3screens.png" class="photo" border-radius="8">
+  </div>
+
+<br><br><br><br>
+
+<div class="topic">Wireframing \</div>
+
+<div class="polaroid">
+  <img src="/Users/crystal/Desktop/lowfi.png" class="photo" border-radius="8">
+  </div>
+
+
+</div>
+
+
+<div id="design">
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">Final Screens & Prototype \</div>
+
+<p>
+
+
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/finalscreens.png" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+
+
+  <div class="proto">
+
+
+
+  <iframe width="300" height="642" src="https://xd.adobe.com/embed/c78f8292-6a5d-42b9-8ddb-32f12e48db86-92dc/?fullscreen&hints=on" frameborder="0" allowfullscreen></iframe>
+
+</div></p>
+
+<p>
+
+
+
+</p>
+
+
+<div id="reflection">
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">04. Reflection \</div>
+
+<p>
+
+<div class="desc"> This was the first personal UX project I'd ever completed and I learned a lot from the process! I found it interesting from my interviews and research to see what users value in food apps and apps in general. As for what I would change about what I did, I would do more statistical research, A/B testing, and gather some user feedback. If I have more time, I will do more iterations, as it is always possible to improve and add more features.</div>
+</div>
+
+
+
+
+<!--
+
+   <button id="scrollToTopBtn">☝️</button>  -->
+
+      <footer>
+
+<a href="https://www.linkedin.com/in/crystal-nguyen" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/crystalnoms" class="fa fa-instagram"></a>
+<a href="https://dribbble.com/ncrystal" class="fa fa-dribbble"></a>
+<a href="https://etsy.com/shop/stalz" class="fa fa-etsy" style="font-size: 0.8em;"></a>
+
+
+
+      <br>
+
+
+    © Designed and Coded by Crystal Nguyen | 2020 
+
+
+</footer>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1600
+      });
+    </script>
+
+
+ <script>
+ 
+var btn = $('#scrollbutton');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+/*
+
+var scrollToTopBtn = document.getElementById("button")
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
+*/
+
+</script>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+</script>
+
+
+</body>
+</html>
