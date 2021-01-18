@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- tab header -->
+		<title>About</title> 
+		
+		<meta charset="utf-8">
+      <!--
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    	<!-- fonts -->
+		<link rel="stylesheet" type="text/css" href="about.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+
+	</head>
+
+<body>
+
+<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+ 	 	<div class="modal-dialog">
+    	<div class="modal-content">
+      	<div class="modal-header">
+        <h5 class="modal-title" id="contact">Contact Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      	</div>
+      	<div class="modal-body">
+
+      		
+
+        <form action="https://formspree.io/mrgywojg" method="post">
+
+        	<div class="form-group">
+            <label for="recipient-name" class="name">Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+        </div>
+
+        <div class="form-group">
+    	<label for="formControlInput1">Email Address:</label>
+    	<input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com">
+  		</div>
+
+  	<div class="form-group">
+    <label for="formControlSelect1">Inquiry Type:</label>
+    <select class="form-control" id="formControlSelect1">
+      <option>Job Opportunity</option>
+      <option>Art Commission</option>
+      <option>PR/Media</option>
+      <option>Other</option>
+    </select>
+  	</div>
+
+
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary custom" onclick ="return confirm('Submitted!')"/>Send message</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <nav id="navbar" class=" navbar-static-top navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm navbar-static-top bg-transparent ">
+    <div class="container-fluid">
+      <a href="index.html" class="brand"> 
+        Crystal Nguyen
+      </a>
+        <!--
+        <img id="logo" src="Logo.png" width="70" height=40 alt="Logo" class="d-inline-block align-middle mr-2"> </a>-->
+      
+
+      <button id="toggleicon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html#scrolldown" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="index.html#contact" data-toggle = "modal" data-target="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container">
+
+
+<div class="section group">
+	<div class="col span_1_of_2">
+	<h1 data-aos="fade-right">Hello hello! <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/twitter/259/smiling-face_263a.png" width="35"></h1>
+	I'm Crystal (she/her).
+	I'm currently an Informatics student at the University of Texas at Austin. 🤘🏻 <br><br>
+
+
+	<h2> My design journey </h2>
+
+	I first got into HTML from the young age of 10 and found myself enjoying the visual appeal of designing. 
+
+	<br><br>
+
+	It was in high school that I stumbled across the field of UX. Like any other teenager, I was lost and exploring my options. Being someone who had always been artistic and interested in technology, I knew I wanted to combine my love for the two. As I continued to research, I realized that the human mind also fascinates me, which is how I decided on this path! <br><br>
+
+	I love fueling my curiosity and desire to grow and hope to improve along my journey.
+
+	<br><br>
+
+	<div class="hideme">
+
+	<h2> Hobbies & interests </h2>
+	🎨 I own an <a href="https://etsy.com/shop/stalz">Etsy shop</a> where I do drawing commissions!<br>
+	🍥 I am a huge anime fan, I've probably seen over 500.
+	<br>
+	🍣 I am a foodie-- I have a <a href="https://instagram.com/crystalnoms">food Instagram.</a>
+	<br>
+	🌁 I love traveling! 
+
+	<br><br> </div>
+
+
+
+
+
+
+</div>
+
+
+	<div class="col span_1_of_2">
+
+	<div class="polaroid">
+	<img src="/Users/crystal/downloads/profile.JPG" class="photo" border-radius="8">
+	</div>
+
+	</div>
+</div>
+</div>
+
+
+<!--
+
+   <section class="container-fluid" style="padding-left: 0px;padding-right: 0px;font-family: Poppins;">
+
+
+    <div id="titlebox">
+      <div id="titlecontainer" style="margin-top: 50px;">
+        <div id="title" data-aos="fade-right"> 
+
+
+
+
+          <div class="maintitle">
+          I'm a designer. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/twitter/259/smiling-face_263a.png" width="35"> </div></div>
+        <div id="titledescription">I'm an Informatics student, aspiring UX/UI Designer, and artist.
+
+        	<div class="fade-in">Fade Me</div>
+
+</div>
+
+-->
+
+       
+      </div>
+
+
+</div>
+    </div>
+
+    <!--<div id="midarrow">
+    <a href="#scrolldown"><img border="0" alt="down" src="https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/chevron-down-512.png" width="50" height ="50"></a>-->
+
+
+  </section>
+
+
+
+  <!--
+
+	<div id="abtpage">
+	<h2>Crystal</h2>
+
+	<ul>
+		<li>20</li>
+		<li>Computer Science student</li>
+	</ul>
+
+
+
+	<p>
+
+	<div class="row">
+	  <div class="column"> <h3> Skills </h3>
+
+	  	<ul>
+	  		<li>Intermediate Java</li>
+	  		<li>Intermediate C++</li>
+	  		<li> HTML, CSS</li>
+	  		<li>Adobe Premiere Pro</li>
+	  	</ul>
+
+	  </div>
+	  <div class="column" style="border-left: 1px solid #bbb; padding-left: 25px;"> <h3> Hobbies </h3> 
+
+	  	<ul>
+	  		<li>Drawing</li>
+	  		<li>Watching Anime</li>
+	  		<li>Singing</li>
+	  		<li>Traveling</li>
+	  	</ul>
+
+	  </div>
+
+	</div>
+
+
+
+	<br>
+
+
+
+
+
+	<a href ="https://crystal-n.github.io/index.html">
+		<h4>return</h4>
+	</a>
+	</div>
+
+
+</p></div>-->
+
+
+	<footer data-aos="fade-up">
+
+<a href="https://www.linkedin.com/in/crystal-nguyen" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/crystalnoms" class="fa fa-instagram"></a>
+<a href="https://dribbble.com/ncrystal" class="fa fa-dribbble"></a>
+<a href="https://etsy.com/shop/stalz" class="fa fa-etsy" style="font-size: 0.8em;"></a>
+
+
+
+			<br>
+
+
+		© Designed and Coded by Crystal Nguyen | 2020 
+
+
+	</footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1600
+      });
+    </script>
+
+
+ <script>
+ 
+var btn = $('#scrollbutton');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+/*
+
+var scrollToTopBtn = document.getElementById("button")
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
+*/
+
+</script>
+
+<script>
+  let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
+</script>
+
+
+<script>
+$(window).scroll(function () {
+
+    /* Check the location of each desired element */
+    $('.article').each(function (i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({
+                'opacity': '1'
+            }, 500);
+
+         }
+     });
+});
+</script>
+
+</body>
+</html>
