@@ -1,25 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<!-- tab header -->
 		<title>Crystal Nguyen</title> 
 		
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     	<!-- Bootstrap CSS -->
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     	<!-- fonts -->
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}</script>
 	</head>
+
 
 	<body>
 
@@ -34,21 +64,23 @@
       	</div>
       	<div class="modal-body">
 
-      		      <form action="https://formspree.io/mrgywojg" method="post">
+      		
+
+        <form action="https://formspree.io/mrgywojg" method="post">
 
         	<div class="form-group">
             <label for="recipient-name" class="name">Name:</label>
-            <input type="text" class="form-control" id="recipient-name" name="Name" required>
+            <input type="text" class="form-control" id="recipient-name">
         </div>
 
         <div class="form-group">
-    	<label for="formControlInput1">Email Address</label>
-    	<input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com" name="Email" required>
+    	<label for="formControlInput1">Email Address:</label>
+    	<input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com">
   		</div>
 
   	<div class="form-group">
     <label for="formControlSelect1">Inquiry Type:</label>
-    <select class="form-control" id="formControlSelect1" required>
+    <select class="form-control" id="formControlSelect1">
       <option>Job Opportunity</option>
       <option>Art Commission</option>
       <option>PR/Media</option>
@@ -59,53 +91,124 @@
 
           <div class="form-group">
             <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text" name="Message" required></textarea>
+            <textarea class="form-control" id="message-text"></textarea>
           </div>
-	<div class="modal-footer">
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary custom" onclick ="return confirm('Submitted!')"/>Send message</button>
-	</div>
-			      
-        </form>
+    </form>
       </div>
     </div>
   </div>
 </div>
 
+<!--
+
+      <a id="scrollbutton"></a>
+-->
+
+
+  <nav id="navbar" class=" navbar-static-top navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm navbar-static-top bg-transparent ">
+    <div class="container-fluid">
+      <a href="index.html" class="brand"> 
+        Crystal Nguyen
+      </a>
+        
+       <!-- <img id="logo" src="Logo.png" width="70" height=40 alt="Logo" class="d-inline-block align-middle mr-2"> </a>-->
+
+      <button id="toggleicon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#scrolldown" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#contact" data-toggle = "modal" data-target="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <section class="container-fluid" style="padding-left: 0px;padding-right: 0px;font-family: Poppins;">
+
+
+
+    <div id="titlebox">
+      <div id="titlecontainer" style="margin-top: 50px;">
+        <div id="title" data-aos="fade-down"> 
+
+          <div class="maintitle">
+          Hello! I'm Crystal. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/twitter/259/smiling-face_263a.png" width="35"> </div></div>
+        <div id="titledescription">I'm an Informatics student, aspiring UX/UI Designer, and artist.
+</div>
+       
+      </div>
+
+    </div>
+
+    <div id="midarrow">
+    <a href="#scrolldown"><img border="0" alt="down" src="https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/chevron-down-512.png" width="50" height ="50"></a>
+
+
+  </section>
+
+
+
+
+
 
 		<div id="main">
 
+
+
+
+
+<!--
 		<ul id = "nav">
-		<li><a href="html/about.html" target="_blank">About</a></li>
+		<li><a href="/html/about.html" target="_blank">About</a></li>
 		<li><a href="#scrolldown">Projects</a></li>
-		<li><a href="html/art.html" target="_blank">Artwork</a></li>
-		<li><a href="html/designs.html" target="_blank">Designs</a></li>
+		<li><a href="/html/art.html" target="_blank">Artwork</a></li>
 		<li><a href="/html/gallery.html" target="_blank">Photography</a></li>
 		<li><a href="#contact" data-toggle = "modal" data-target="#contact">Contact</a></li>
 
 
-		<li><a href="My_Resume.pdf" target="_blank">Resume</a></li>
+		<li><a href="myresume.pdf" target="_blank">Resume</a></li>
 		</ul>
+-->
+
+		<!--<button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contact</button>-->
 
 
+<!--
 
-
-		<!-- circle image -->
 		<div class="circle"></div>
 
 		<div id="about">
-		<!-- <h2>About</h2> -->
+
 
 		<p>
 
-		<div id="intro">
-			Hi! I'm Crystal Nguyen.
-		</div>
 
 
-		I'm a 20 year old Computer Science student who is an aspiring UX/UI Designer or Software Engineer.
+		<div id="intro" data-aos="fade-down"> 
 
-		<!--loves watching anime and enjoys drawing in her free time.-->
+			Hello! I'm Crystal. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/twitter/259/smiling-face_263a.png" width="35">
+    </div>
+		
+
+
+		I'm an Informatics student, aspiring UX/UI Designer, and artist.
 
 		</p>
 
@@ -114,52 +217,204 @@
 		<div id="midarrow">
 		<a href="#scrolldown"><img border="0" alt="down" src="https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/chevron-down-512.png" width="50" height ="50"></a>
 
+
+
 		</div>
 
 		</div>
 
-
-
-		<!--<a id="scrolldown">-->
+-->
 
 
 
-		<div id = "proj">
-
-		<div id ="scrolldown">
-
-			<div id="projects">
+<div id = "whitecontainer"> 
 
 
-				<div class="pt"> Project 1 </div>
+<!-- PROJECT 1 -->
 
-				<p>
-				Currently in progress... <br>
-				Stay tuned :)
-				</p>
+    <div id ="scrolldown">
 
-			</div>
+<div class="Projectbox" id="indoor-box" style="background-color: #fff" data-aos="fade-up">
 
-			</div>
+    <div class="imagebox" id="proj1img" >
+      <a href="Chopstix.html" ><img id="image" src="/Users/crystal/downloads/cho.jpg" > </a>
+    </div>
 
-		</div>
-		</a>
+    <div class="floatcontainer">
+      <div id="titlediv"> Chopstix </div>
+
+      <div class="Projectdescription"> 
+
+<div class="subinfo">
+Personal Project | Concept</div>
+
+<br>
+
+      Connect with like-minded foodies and discover Asian cuisine wherever you go.</div>
 
 
-	<div class="footer"> 
-<a href="https://www.linkedin.com/in/crystal-nguyen"><img src="https://image.flaticon.com/icons/png/512/61/61109.png" width="20" height="20" title="linkedin" alt="Flower"></a>
+      <div id="buttondiv">
 
-			<p>
 
-		© Crystal Nguyen, 2020 
+        <a href="Chopstix.html" >
 
-	</div>
+          <div class="btn btn-outline-dark" type="button" id="desktopbutton" style="margin-right: 10px;">Read More</div>
+                      
+                      <div class="btn btn-outline-dark"  data-aos="fade-up" data-aos-duration="400" type="button" id="mobilebutton" style="margin-right: 10px;">Read More</div>
+         </a>
+
+
+
+      </div>
+
+
+      </div>
+
+
+  </div>
+
+
+</div>
+
+
+<!-- project 2 -->
+
+
+
+<div class="Projectbox" id="indoor-box" style="background-color: #fff" data-aos="fade-up">
+
+    <div class="imagebox" id="proj1img" >
+      <a href="mfp.html" ><img id="image" src="/Users/crystal/downloads/mfp.jpg" > </a>
+    </div>
+
+    <div class="floatcontainer">
+      <div id="titlediv"> MyFitnessPal <br>Redesign </div>
+
+      <div class="Projectdescription"> 
+
+<div class="subinfo">
+Personal Project | App Redesign</div>
+
+<br>
+
+      A redesign of the MyFitnessPal app.</div>
+
+
+      <div id="buttondiv">
+
+
+        <a href="mfp.html" >
+
+          <div class="btn btn-outline-dark" type="button" id="desktopbutton" style="margin-right: 10px;">Read More</div>
+                      
+                      <div class="btn btn-outline-dark"  data-aos="fade-up" data-aos-duration="400" type="button" id="mobilebutton" style="margin-right: 10px;">Read More</div>
+         </a>
+
+
+
+      </div>
+
+
+      </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+	<footer data-aos="fade-up">
+
+<a href="https://www.linkedin.com/in/crystal-nguyen" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/crystalnoms" class="fa fa-instagram"></a>
+<a href="https://dribbble.com/ncrystal" class="fa fa-dribbble"></a>
+<a href="https://etsy.com/shop/stalz" class="fa fa-etsy" style="font-size: 0.8em;"></a>
+
+
+
+			<br>
+
+
+		© Designed and Coded by Crystal Nguyen | 2020 
+
+
+	</footer>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1600
+      });
+    </script>
+
+
+ <script>
+ 
+var btn = $('#scrollbutton');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+/*
+
+var scrollToTopBtn = document.getElementById("button")
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
+*/
+
+</script>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+</script>
 
 	</body>
 </html>
