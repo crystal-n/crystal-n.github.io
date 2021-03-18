@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<head>
+      <title>Crystal Nguyen</title> 
+    
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+          <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/editor.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+
+      <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+  </head>
+
+
+<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="contact">Contact Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+
+          
+
+        <form action="https://formspree.io/mrgywojg" method="post">
+
+          <div class="form-group">
+            <label for="recipient-name" class="name">Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+        </div>
+
+        <div class="form-group">
+      <label for="formControlInput1">Email Address:</label>
+      <input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com">
+      </div>
+
+    <div class="form-group">
+    <label for="formControlSelect1">Inquiry Type:</label>
+    <select class="form-control" id="formControlSelect1">
+      <option>Job Opportunity</option>
+      <option>Art Commission</option>
+      <option>PR/Media</option>
+      <option>Other</option>
+    </select>
+    </div>
+
+
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary custom" onclick ="return confirm('Submitted!')"/>Send message</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
+      
+
+<!--
+  <div class="column">
+        <div class="menu sticky">       
+          <p  class="menu-label"><b>Quick Links</b></p>
+          <ul id="menu" class="menu-list">
+            <li><a href="#basic">Basic SEO Checklist</a></li>
+            <li><a href="#problem">Keyword Research Checklist</a></li>
+            <li><a href="#onpage">On-Page SEO Checklist</a></li>
+            <li><a href="#content">Content Checklist</a></li>
+            <li><a href="#technical">Technical SEO Checklist</a></li>
+            <li><a href="#link">Link Building Checklist</a></li>
+          </ul>
+        </div>
+      </div>
+-->
+
+
+
+<nav id="navbar" class=" navbar-static-top navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm navbar-static-top bg-transparent ">
+    <div class="container-fluid">
+      <a href="index.html" class="brand"> 
+        Crystal Nguyen
+      </a>
+        
+       <!-- <img id="logo" src="Logo.png" width="70" height=40 alt="Logo" class="d-inline-block align-middle mr-2"> </a>-->
+
+      <button id="toggleicon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html#scrolldown" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#contact" data-toggle = "modal" data-target="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+     <!-- <ul id = "sidebar">
+      <a href="#problem"> 00. Problem </a>
+      <br>
+      <a href="#research"> 01. Research </a>
+      <a href="#design"> 02. Lol </a>
+    </ul>-->
+
+<div class="jumbotron"><img src="/Users/crystal/Downloads/dot2.png" >
+
+      </div>
+
+<div class="container">
+
+
+
+<div class="side" >
+
+      <ul id = "sidebar">
+      <a href="#overview"> 00. Overview </a>
+      <br>
+      <a href="#research"> 01. Research </a>
+      <br>
+      <a href="#ideation"> 02. Ideation </a>
+      <br>
+      <a href="#design"> 03. Design </a> 
+      <br>
+      <a href="#reflection"> 04. Reflection </a>
+    </ul>
+
+</div>
+
+<!-- PROJECT OVERVIEW -->
+
+<div id="overview">
+
+<div class="overview" data-aos="fade-up">
+
+    
+
+    <div class="fill" >
+    <div class="section" > <!--container-->
+    <div class="grid pogrid">
+
+
+      
+      <div id="namep">
+      <h1 class="heading"> Dot </h1>
+      </div>
+
+
+
+      <div id="overpl" class="div-block-1"> 
+      <div class="subheading">Overview</div>
+      <div class="para">Dot is a mobile application designed for women who want to track their menstrual cycles, giving the option of a digital journal.
+      
+
+      
+ </div>
+      </div>
+
+      <div id="overpr" class="div-block-2">
+      <div class="subheading">Role</div>
+      <div class="para">UX Designer<br> Researcher</div>
+      <br>
+      <div class="subheading">Duration</div>
+      <div class="para">~2 weeks, Sept. 2020 <br> ~2 weeks, Feb. 2021</div>
+      <br>
+      <div class="subheading">Tools</div>
+      <div class="para">Adobe XD, Photoshop</div>
+
+
+    </div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+  <div class="section2" data-aos="fade-up">
+ 
+
+
+
+
+
+  <div class="polaroid">
+  <img src="/Users/crystal/Downloads/dotpreview.png" class="photo" border-radius="8">
+  </div>
+</div>
+
+
+<!--
+
+<div class="psection group">
+  <div class="col span_1_of_2">
+  <h1>Calendar</h1>
+  
+  I created a cycle history section, which is vital so users can see their past periods, current periods, and upcoming periods. They are also able to track when they are fertile or ovulating. I provided a legend at the top so it would be easier to understand the elements if needed.<br><br>
+
+
+
+  <br><br>
+
+
+
+</div>
+
+
+  <div class="col span_1_of_2">
+
+  <div class="previewpic">
+  <img src="/Users/crystal/Downloads/calendar.png" class="photo" border-radius="8">
+  </div>
+
+  </div>
+
+
+
+<div class="psection group">
+  <div class="col span_1_of_2">
+   <div class="previewpic">
+  <img src="/Users/crystal/Downloads/journal.png" class="photo" border-radius="8">
+  </div>
+
+  <br><br>
+
+
+
+</div>
+
+  <div class="col span_2">
+
+<h1>Journal</h1>
+  
+  To create a more personal experience, I created a journal section so users could log any symptoms or write down their thoughts for each day. Users would be able to sort and view their entries as they please. <br><br>
+
+
+ 
+
+  </div>
+
+
+
+</div></div>
+
+-->
+
+
+
+
+<br><br><br><br> 
+
+
+<div class="section2" data-aos="fade-up">
+<div class="topic">The Process \</div>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/dotprocess.jpg" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+
+<div id="research">
+
+
+  <div class="section2" data-aos="fade-up">
+ <div class="topic">01. Research \</div>
+
+<p>
+
+<div class="desc"> To create an application concept that is catered towards the menstrual cycle, I read up on the topic and educated myself. Being a woman, reading about periods  benefited and intrigued me as I had never researched deeply about it before, and now feel more informed. <br><br>
+
+<div class="findings">
+<h2>Background Information</h2>
+  <br>
+4 Phases of the Menstrual Cycle<br><br>
+<ul><ul>• Menstrual</ul></ul>
+<ul><ul><ul> ○ Period, ~3-7 days </ul></ul></ul>
+<ul><ul>• Follicular</ul></ul>
+<ul><ul><ul> ○ Starts on period, ends on ovulation, 11-27 days </ul></ul></ul>
+<ul><ul>• Ovulation</ul></ul>
+<ul><ul><ul> ○ Occurs in middle of cycle, 1 day </ul></ul></ul>
+<ul><ul>• Luteal</ul></ul>
+<ul><ul><ul> ○ Rise in hormones, 11-17 days </ul></ul></ul>
+<br>
+• Usually fertile a week after period, ~3-5 days
+
+<br>
+</div>
+
+<br><br><br><br>
+
+I then interviewed 3 people who get periods and asked them what their ideal features would be for a period tracker app.
+
+
+<div class="findings">
+<h2>Key Findings</h2>
+  <br>
+3 Interviews Total <br><br>
+<ul>High Priority</ul>
+<ul><ul>• Personalized</ul></ul>
+<ul><ul>• Track symptoms for the day</ul></ul>
+<ul><ul>• Predictions</ul></ul>
+
+<ul>Medium Priority</ul>
+<ul><ul>• Calendar</ul></ul>
+
+<ul>Low Priority</ul>
+<ul><ul>• Tips/insights</ul></ul>
+
+<br>
+</div>
+</div>
+
+</div>
+
+
+<!--
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">Competitive Analysis \</div>
+
+<p>
+
+<div class="desc"> I chose to analyze . The key features that I compared were history, symptoms... <br><br>
+
+</div>
+
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/ca.png" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+-->
+
+<div id="ideation">
+
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">02. Ideation \</div>
+
+
+
+<br><br>
+<div class="topic">Features \</div>
+
+<div class="desc"> I chose to focus on a simple design, focusing on 3 pages: calendar, home, and journal.</div>
+
+</div>
+
+
+<div id="design">
+
+<div class="section2" data-aos="fade-up">
+ <div class="topic">03. Design \</div>
+ <br><br>
+
+ <div class="topic">First Design & Wireframes \</div>
+
+<p>
+
+<div class="polaroid">
+  <img src="/Users/crystal/desktop/firstdesign.png" class="photo" border-radius="8">
+  </div>
+
+  <p><br>
+
+<div class="desc"> I showed the first design I created in September to the interviewees along with the prototype and asked for feedback on the screens and experience.
+  Overall, they liked the design. What was suggested as room for improvement was: <br><br>
+
+    <ul> 1. The home page be more interactive, and a search bar be added</ul>
+    <ul> 2. The cycle history page have a wider design</ul>
+    <ul> 3. More symptoms/options be added</ul>
+</div>
+</div>
+
+
+<div class="section2" data-aos="fade-up">
+<div class="topic">Changes & Iterations \</div>
+<p>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/homeab.jpg" class="photo" border-radius="8">
+  </div>
+
+<br>
+
+<div class="topic">Home</div>
+  <div class="desc"> Firstly, I changed the home screen as that is the default screen. I made it more interactive as suggested and decided to remove the 3 buttons, making a concise navigation bar.
+</div>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/historyab.jpg" class="photo" border-radius="8">
+  </div>
+<br>
+
+<div class="topic">Cycle History</div>
+  <div class="desc"> The original history page appeared to be cluttered and lacked direction. It also did not have any indication of predictions or phases of the cycle, which is crucial. I added these as well as made the calendars of each month line up with the days of the week. With the new design, it is easier to tell what to expect each month.
+</div>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/journalab.jpg" class="photo" border-radius="8">
+  </div>
+<br>
+
+<div class="topic">Journal</div>
+  <div class="desc"> Originally, I had a summary appear after the user created a journal entry, but I removed that screen and combined it with the recent entries screen so it would be neater. The original journal page was limited and could easily be too crowded (as mentioned by an interviewee), so I added more concise options and highlighted the recent entry (as a replacement for a summary). If users wanted to, they could view notes or edit the entry by clicking on the arrow next to the date. For past dates, they can click on them and view them if needed.
+</div>
+<br><br>
+<div class="topic">Other Changes</div>
+  <div class="desc"> When creating a journal entry, there were less options in my original design. I added some more options, such as spotting, sex, and fluids. <br>
+    For onboarding, I added another question which was about cycle length as that plays a role in determining periods.
+</div>
+<br><br>
+<div class="topic">Iterations Not Used</div>
+  <div class="polaroid">
+  <img src="/Users/crystal/downloads/dotiterations.jpg" class="photo" border-radius="8">
+  </div>
+
+</div>
+
+
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">Final Screens & Prototype \</div>
+<p>
+
+<div class="polaroid">
+  <img src="/Users/crystal/downloads/dotfinal.png" class="photo" border-radius="8">
+  </div>
+
+<br><br>
+
+  <div class="desc"> Based on their feedback, I revisited it in February, making changes and improvements to the overall design. 
+</div>
+</div>
+
+
+
+  <div class="proto">
+
+ <iframe width="300" height="642" src="https://xd.adobe.com/embed/b8f96e1b-7df3-47c8-8f89-4ebd7a108c75-edaa/?fullscreen&hints=on" frameborder="0" allowfullscreen></iframe>
+
+</div></p>
+
+<p>
+
+
+
+<div id="reflection">
+
+ <div class="section2" data-aos="fade-up">
+ <div class="topic">04. Reflection \</div>
+
+<p>
+
+<div class="desc"> 
+I started this project in September and originally created a different design, but revisited it in February aiming to improve and finalize it. <br>
+In this project, I utilized user feedback and iterated designs more, as that was one of my goals after completing my first project. I felt that this was a different learning experience for me as I focused on a more scientific subject and put more research upon it. To improve upon it, I would add more features, such as tips and insights.
+
+
+</div>
+</div>
+
+
+
+
+<!--
+
+   <button id="scrollToTopBtn">☝️</button>  -->
+
+      <footer>
+
+<a href="https://www.linkedin.com/in/crystal-nguyen" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/crystalnoms" class="fa fa-instagram"></a>
+<a href="https://dribbble.com/ncrystal" class="fa fa-dribbble"></a>
+<a href="https://etsy.com/shop/stalz" class="fa fa-etsy" style="font-size: 0.8em;"></a>
+
+
+
+      <br>
+
+
+    © Designed and Coded by Crystal Nguyen | 2020 
+
+
+</footer>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1600
+      });
+    </script>
+
+
+ <script>
+ 
+var btn = $('#scrollbutton');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+/*
+
+var scrollToTopBtn = document.getElementById("button")
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
+*/
+
+</script>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+</script>
+
+
+</body>
+</html>
