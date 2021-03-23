@@ -11,15 +11,15 @@
 
 .btn-primary.custom{
 	color: #fff;
-	background-color: #FA7E7E;
+	background-color: #5B69BB;
 	border: 0;
 	transition-duration: 0.5s;
 }
 
 .btn-primary.custom:hover{
-	color: #FA7E7E;
+	color: #5B69BB;
 	background-color: #fff;
-	border-color: #FA7E7E;
+	border-color: #5B69BB;
 	border: 1px solid;
 }
 
@@ -100,7 +100,7 @@ display: block;
 
 .brand:hover{
   color: pink;
-  color: #FA7E7E;
+  color: #5B69BB;
 }
 
 .navbar-collapse.collapse.show{
@@ -124,7 +124,7 @@ display: block;
  }
 
  .navbar-nav.ml-auto li a:hover {
-   color: #FA7E7E!important;
+   color: #5B69BB!important;
  }
 
 .nav-item{
@@ -635,7 +635,7 @@ body{
 }
 
 footer{
-	color: #FA7E7E;
+	color: #5B69BB;
 	text-align: center;
 	padding: 2vw;
 	font-family: 'Inconsolata', monospace;
@@ -832,12 +832,12 @@ li {
 	position: absolute;
 	order: 2;
 	width: 40vw;
-	color: #FA7E7E;
+	color: #5B69BB;
 }
 
 #nav a {
 	color: #0A2630;
-    color: #FA7E7E;
+    color: #5B69BB;
 	  transition: background-position 0.5s ease-out;
 
 }
@@ -850,7 +850,7 @@ a:link {
 
 #nav a:visited {
   text-decoration: none;
-  color: #FA7E7E;
+  color: #5B69BB;
 }
 
 
@@ -865,7 +865,7 @@ a {
 }
 
 a:hover{
-	color: #FA7E7E;
+	color: #5B69BB;
 }
 
 #nav a::after {
@@ -995,7 +995,7 @@ a:active {
 }
 
 footer{
-	color: #FA7E7E;
+	color: #5B69BB;
 	text-align: center;
 	padding: 2vw;
 	font-family: 'Inconsolata', monospace;
@@ -1009,7 +1009,7 @@ footer{
 
 
 .fa:hover {
-  color: #FA7E7E;
+  color: #5B69BB;
 }
 
 html {
