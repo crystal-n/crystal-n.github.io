@@ -37,7 +37,7 @@ color: black !important;
 
 .brand:hover{
   color: pink;
-  color: #5B69BB;
+  color: #FA7E7E;
 }
 
 .navbar-collapse.collapse.show{
@@ -98,7 +98,7 @@ color: black !important;
 
 .brand:hover{
   color: pink;
-  color: #5B69BB;
+  color: #FA7E7E;
 }
 
 .navbar-collapse.collapse.show{
@@ -122,7 +122,7 @@ color: black !important;
  }
 
  .navbar-nav.ml-auto li a:hover {
-   color: #5B69BB!important;
+   color: #FA7E7E!important;
  }
 
 .nav-item{
@@ -298,15 +298,15 @@ li:hover {
 
 .btn-primary.custom{
 	color: #fff;
-	background-color: #5B69BB;
+	background-color: #FA7E7E;
 	border: 0;
 	transition-duration: 0.5s;
 }
 
 .btn-primary.custom:hover{
-	color: #5B69BB;
+	color: #FA7E7E;
 	background-color: #fff;
-	border-color: #5B69BB;
+	border-color: #FA7E7E;
 	border: 1px solid;
 }
 
@@ -340,12 +340,12 @@ li:hover {
 	position: absolute;
 	order: 2;
 	width: 40vw;
-	color: #5B69BB;
+	color: #FA7E7E;
 }
 
 #nav a {
 	color: #0A2630;
-    color: #5B69BB;
+    color: #FA7E7E;
 	  transition: background-position 0.5s ease-out;
 
 }
@@ -358,7 +358,7 @@ a:link {
 
 #nav a:visited {
   text-decoration: none;
-  color: #5B69BB;
+  color: #FA7E7E;
 }
 
 /* mouse over link */
@@ -654,7 +654,7 @@ html {
 
 
 .fa:hover {
-  color: #5B69BB;
+  color: #FA7E7E;
 }
 
 
