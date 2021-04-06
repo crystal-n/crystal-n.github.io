@@ -272,7 +272,13 @@ iframe{
 	margin-top: 5vw;
   max-width: 750px;
   width: 70vw;
+  width: 100%;
+  align-content: center;
   background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
@@ -293,6 +299,17 @@ height: auto;
 
 }
 
+.screens{
+	width: auto;
+	height: auto;
+	padding: 0;
+	align-content: center;
+	object-fit: contain;
+}
+
+.screens img{
+	width:100%;
+}
 
 
 
@@ -332,14 +349,14 @@ height: auto;
 	display: flex;
 	flex-direction: column;
 	position: relative;
+
 }
 
 body{
-	width: 100%;
-	
 	height: auto;
 	position: relative;
 	margin: 0;
+	padding: 0;
 	font-family: Raleway;
 	font-family: 'Rubik', sans-serif;
 	font-family: 'Inter', sans-serif;
@@ -364,6 +381,12 @@ body{
 	padding: 0;
 	align-content: center;
 	object-fit: contain;
+}
+
+.widepic{
+	max-width: 100%;
+    max-height: 100%;
+    height: auto;
 }
 
 #namep{
@@ -456,34 +479,37 @@ body{
 .desc{
 	position: relative;
 	justify-content: left;
-	width: 50vw;
+	width: 55vw;
 }
 
 .section{
 	position: relative;
 	width: 100%;
-	max-width: 1140px;
+	/*max-width: 1140px;*/
 	margin: auto;
 	/*justify-content: center;*/
 	object-fit: contain;
-	margin-left: 10vw;
+	margin-left: 0vw;
 }
 
 .section2{
 	position: relative;
-	width: 100%;
-	max-width: 1140px;
+	/*width: 100%;*/
+	/*max-width: 1140px;*/
 	margin: auto;
 	/*justify-content: center;*/
 	object-fit: contain;
-	margin-left: 15vw;
+	margin-left: 0vw;
 	padding-bottom: 10vw;
+  	margin-left: auto;
+    margin-right: auto;
+    width: 55vw;
 }
 
 .sectionalt{
 
 	background-color: #EAEAEA;
-	width: 80vw;
+	width: 100%;
 	box-align: center;
 	margin-bottom: 10vw;
 	padding: 5vw;
@@ -511,41 +537,10 @@ body{
 	}
 
 @media only screen and (min-device-width: 1024px){
+
 	
-	
-	/*
-	
-	#sidebar{
-		margin-left: 10vw;
 	}
 
-
-	.container{
-		width: 40vw;
-		padding-left:0vw;
-	}
-
-	.overview{
-		margin-left: -150px;
-	}
-
-	.section2{
-		margin-left: 0px;
-	}
-
-	.findings{
-		margin-left: 11vw;
-	}
-
-	.desc{
-		width: 40vw;
-	}*/
-
-	 footer{
-	width: 50vw;
-	margin-left: 200px;
-	}
-	}
 
 
 @media only screen and (min-width: 768px and max-width: 1024px){
@@ -554,6 +549,8 @@ body{
 		width: auto;
 		padding: 0px;
 	}
+
+
 
 	.sectionalt{
 		max-width: 80vw;
@@ -570,6 +567,7 @@ body{
 
 	.div-block-2{
 		max-width: 30vw;
+		padding-left: 10vw;
 		font-size: 15px;
 		line-height: 28px;
 	}
@@ -657,9 +655,7 @@ body{
   	overflow-x: hidden;
   }
 
-  footer{
 
-  }
 
 }
 
@@ -711,7 +707,7 @@ footer{
 }
 
 .overview{
-	margin-left: 30px;
+	margin-left: 0px;
 }
 
 footer{
@@ -735,9 +731,11 @@ footer{
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
- 	.side{
+
+  	.side{
 	visibility: hidden;
 }
+
  .overview{
  	margin-top: -10vw;
  }
@@ -932,9 +930,14 @@ a:active {
 }
 
 .container{
-	width: 200vw;
-	justify-content: center;
-	overflow-y: hidden;
+	/*justify-content: center;*/
+	margin: 0 auto;
+	margin: auto;
+  width: 75%;
+  border: 3px solid green;
+  padding: 10px;
+overflow-wrap: break-word;
+
 
 }
 
@@ -948,6 +951,10 @@ a:active {
 	position: relative;
 	max-width: 1140px;
 	object-fit: contain;
+	margin: 0 auto;
+	margin-left: 51px;
+    margin-right: auto;
+
 }
 
 .footer{
