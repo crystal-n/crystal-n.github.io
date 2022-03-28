@@ -136,7 +136,7 @@ transition: color .4s ease!important;
  }
 
   .navbar-nav.ml-auto li a:hover {
-   color: #FA7E7E!important;
+   color: #000;
  }
 
 .nav-item {
