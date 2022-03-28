@@ -73,13 +73,21 @@ display: block;
     box-shadow: none;
 }
 
+
 #navbar{
   z-index: 9;
-  background-color: #F8F2EE!important;
+  /*background-color: #F8F2EE!important;*/
+  /*background: rgb(255,219,226);
+background: linear-gradient(27deg, rgba(255,219,226,1) 3%, rgba(232,232,255,1) 50%, rgba(166,240,255,1) 100%);*/
+  background-color: rgba(0,0,0,0);
+
   height: 110px !important;
   color: black;
   font-family: "Poppins";
     font-family: 'Lato', sans-serif;
+
+      background: rgb(255,250,250);
+background: radial-gradient(circle, rgba(255,250,250,1) 61%, rgba(255,227,232,1) 82%, rgba(224,224,255,1) 100%);
 
   letter-spacing: .35px;
   color: black;
@@ -90,7 +98,7 @@ display: block;
 }
 
 .brand{
-  margin-left: 10%;
+  margin-left: 2%;
   color: black;
   width: 50%;
   font-size: 1.2em;
@@ -100,7 +108,7 @@ display: block;
 
 .brand:hover{
   color: pink;
-  color: #FA7E7E;
+  color: black;
 }
 
 .navbar-collapse.collapse.show{
@@ -114,7 +122,8 @@ display: block;
 }
 
 .navbar{
-  background-color: #EFEFEF!important;
+  background-color: #EFEFEF;
+    background-color: rgba(0,0,0,0);
   height: 110px !important;
 }
 
@@ -139,7 +148,8 @@ display: block;
 
 #navbarSupportedContent{
   text-align: center;
-  background-color: #F8F2EE!important;
+  /*background-color: #F8F2EE;*/
+  background-color: rgba(0,0,0,0);
   width: 120%;
   padding-left: 20px;
   white-space: nowrap;
@@ -364,7 +374,9 @@ body{
 	background-color: white;
 	color: #000;
 	overflow-x:hidden;
-
+ 	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -660,13 +672,19 @@ body{
 }
 
 footer{
-	color: #FA7E7E;
+	color: #000!important;
 	text-align: center;
 	padding: 2vw;
 	font-family: 'Inconsolata', monospace;
 	font-weight: 600;
+  margin-bottom: 0px;
+  bottom:0;
+  margin-top: auto;
+  width: 100vw;
+  margin-left: -13vw;
+  background: rgb(255,250,250);
+background: radial-gradient(circle, rgba(255,250,250,1) 61%, rgba(255,227,232,1) 82%, rgba(224,224,255,1) 100%);
 }
-
 
 /*
 @media only screen and (min-width: 768px) and (max-width: 992px){
@@ -875,9 +893,31 @@ a:link {
   position: relative;
 }
 
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
 #nav a:visited {
   text-decoration: none;
-  color: #FA7E7E;
+  color: #000;
 }
 
 
@@ -934,6 +974,7 @@ a:active {
 	margin: 0 auto;
 	margin: auto;
   width: 75%;
+  
   padding: 10px;
 overflow-wrap: break-word;
 
@@ -1051,6 +1092,4 @@ html {
   scroll-behavior: smooth;
   overflow-x:hidden;
 }
-
-
 
