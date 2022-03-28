@@ -351,15 +351,15 @@ li:hover {
 
 .btn-primary.custom{
 	color: #fff;
-	background-color: #FA7E7E;
+	background-color: #f3aebb;
 	border: 0;
 	transition-duration: 0.5s;
 }
 
 .btn-primary.custom:hover{
-	color: #FA7E7E;
+	color: #f3aebb;
 	background-color: #fff;
-	border-color: #FA7E7E;
+	border-color: #f3aebb;
 	border: 1px solid;
 }
 
