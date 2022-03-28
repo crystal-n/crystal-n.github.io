@@ -274,7 +274,7 @@ html {
 
 #nav a {
 	color: #0A2630;
-    color: #FA7E7E;
+    color: #000;
 	  transition: background-position 0.5s ease-out;
 
 }
@@ -310,7 +310,7 @@ a.left:hover:before {
 
 #nav a:visited {
   text-decoration: none;
-  color: #FA7E7E;
+  color: #000;
 }
 
 
@@ -347,7 +347,7 @@ a {
 }
 
 a:hover{
-	color: #FA7E7E;
+	color: #000;
 }
 
 
