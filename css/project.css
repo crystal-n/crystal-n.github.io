@@ -395,6 +395,16 @@ body{
 	object-fit: contain;
 }
 
+.jumbotron2{
+	background-color: #EAEAEA;
+	width: auto;
+	height: auto;
+	padding: 0;
+	align-content: center;
+	object-fit: contain;
+
+}
+
 .widepic{
 	max-width: 100%;
     max-height: 100%;
