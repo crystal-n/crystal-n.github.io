@@ -755,7 +755,8 @@ footer{
 }
 
  .overview{
- 	margin-top: -10vw;
+ 	margin-top: -50vw;
+ 	margin-left:  0px;
  }
 
 
@@ -801,9 +802,14 @@ footer{
 	display: inline-block;
 }
 */
- 
 
+.section{
+	margin-left: 0;
+}
 
+.section2{
+	margin: 0;
+}
 .desc{
 	width: 70vw;
 }
@@ -816,7 +822,7 @@ footer{
 .jumbotron{
 	background-color: #EAEAEA;
 	width: 100vw;
-	margin-top: 40px;
+	margin-top: 0px;
 
 }
 
@@ -1057,6 +1063,17 @@ overflow-wrap: break-word;
 		margin: 1% 0 1% 0%;
 	}
 
+.overview{
+margin-left: 0;
+}
+
+.div-block-1{
+	width: 150px;
+}
+
+.div-block-2{
+	width: 100px;
+}
 
 	.polaroid{
 		max-width: 290px;
@@ -1092,4 +1109,3 @@ html {
   scroll-behavior: smooth;
   overflow-x:hidden;
 }
-
