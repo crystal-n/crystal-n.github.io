@@ -1081,20 +1081,16 @@ margin-left: 0;
 	}
 
 	footer{
-		width: 75vw;
-		justify-content: center;
-		margin-left: 50px;
+		height: auto;
+		margin-left: -71px;
+		width: 105vw;
+		padding-bottom: 0;
 	}
+
+
 }
 
-footer{
-	color: #FA7E7E;
-	text-align: center;
-	padding: 2vw;
-	font-family: 'Inconsolata', monospace;
-	font-weight: 600;
-	margin-bottom: 50px;
-}
+
 
 .fa{
   transition-duration: 0.5s;
